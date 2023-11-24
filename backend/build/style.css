@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Agbalumo';
+}
+
+body {
+    background-color:  #ECE3CE;
+}
+
+.containerx {
+    display: grid;
+    grid-template-rows: 1fr 0.1fr;
+    justify-items: center;
+    height: 100dvh;
+}
+
+.note-container {
+    display: grid;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    height: 100dvh;
+}
+
+.note-container img {
+    height: 7rem;
+}
+
+.verify-text{
+    color: #ECE3CE;
+}
+
+.note-container header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4F6F52;
+}
+
+header .link {
+    align-self: center;
+    padding-right: 2rem;
+    color: #ECE3CE;
+}
+
+header .link:hover{
+    color: #3A4D39;
+}
+
+.note-container footer {
+    justify-self: center;
+}
+
+header { 
+    align-self: center;
+}
+
+footer {
+    align-self: center;
+    color: #3A4D39;
+}
+
+.link {
+    text-decoration: none;
+    color: #3A4D39;
+}
+
+.link:hover {
+    color: #ECE3CE;
+}
+
+/* Login Page */
+ 
+
+button, input {
+    outline: none;
+    border: none;
+}
+
+.login-form .logo {
+    width: 8rem;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading-text {
+    align-self: center;
+    color: #ECE3CE;
+    letter-spacing: 0.1rem; 
+}
+
+.login-form {
+    width: 30rem;
+    padding: 4% 2%;
+    border-radius: 0.8rem;
+    background-color: #739072;
+    align-self: center;
+}
+
+.auth-text {
+    margin-top: 1rem;
+    color: #ECE3CE;
+    letter-spacing: 0.1rem;   
+}
+
+::placeholder {
+    color: #ECE3CE;
+    opacity: 1;
+  }
+
+.form-input {
+    display: block;
+    width: 30em;
+    background-color: transparent;
+    color: #3A4D39;
+    letter-spacing: 0.3rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    border: 0.1rem solid #333;
+    border-radius: 0.7rem;
+    padding: 0.65rem 0.5rem;
+    transition: .3s border;
+}
+
+.submit-btn {
+    display: block;
+    width: 70%;
+    background-color: #ECE3CE;
+    color: #3A4D39;
+    letter-spacing: 0.3rem;
+    margin-top: 2rem;
+    border: 0.1rem solid #333;
+    border-radius: 0.7rem;
+    padding: 0.65rem 0.5rem;
+    transition: .3s border;
+    margin-left: 4rem;
+}
+
+.form-input:hover {
+    color: #739072;
+    border: 0.1rem solid #ECE3CE;
+    background: #3A4D39;   
+}
+
+.submit-btn:hover {
+    color: #ECE3CE;
+    background-color: #3A4D39;
+    border: 0.1rem solid #739072;
+}
+
+/* Note page */
+.note {
+    background: #99B080;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+  }
+  .note h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+    color: #ECE3CE;
+  }
+  .note p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #ECE3CE;
+  }
+  
+  .note button {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    background: transparent;
+    color: #ECE3CE;
+    border: none;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .note-form {
+    position: relative;
+    width: 480px;
+    margin: 30px auto 20px auto;
+    background: #99B080;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+  }
+  .note-form input,
+  .note-form textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+    background: #99B080;
+  }
+
+  .note-form button {
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background: #3A4D39;
+    color: #ECE3CE;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+  }
